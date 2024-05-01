@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div id="display" class="display">
+            <span id="display-content">5</span>
+        </div>
+        <div class="teclado">
+            <!-- Linha 1 -->
+            <button onclick="clicarBotao('1')">1</button>
+            <button onclick="clicarBotao('2')">2</button>
+            <button onclick="clicarBotao('3')">3</button>
+            <button onclick="clicarBotao('+')">+</button>
+            <!-- Linha 2 -->
+            <button onclick="clicarBotao('4')">4</button>
+            <button onclick="clicarBotao('5')">5</button>
+            <button onclick="clicarBotao('6')">6</button>
+            <button onclick="clicarBotao('-')">-</button>
+            <!-- Linha 3 -->
+            <button onclick="clicarBotao('7')">7</button>
+            <button onclick="clicarBotao('8')">8</button>
+            <button onclick="clicarBotao('9')">9</button>
+            <button onclick="clicarBotao('*')">*</button>
+            <!-- Linha 4 -->
+            <button onclick="clicarBotao('C')">C</button>
+            <button onclick="clicarBotao('0')">0</button>
+            <button onclick="clicarBotao('=')">=</button>
+            <button onclick="clicarBotao('/')">/</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
